@@ -1,1 +1,1 @@
-# manipulacao-de-dados-
+# Manipulação para analises, uso de dicionário, lista e repetição
