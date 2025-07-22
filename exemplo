@@ -1,0 +1,24 @@
+usuarios = {}
+usuarios = {
+    "Christian": ["Christian Schunck", "15/07/2025"],
+    "Marcelo": ["Marcelo Paulo", "15/07/2025"],
+    "Kleber": ["Kleber Souza", "15/07/2025"]
+}
+
+print(usuarios)
+print("=============  ============")
+print("Dados do usuario: ", usuarios.get("Christian"))
+print("Dados do usuario: ", usuarios.get("Marcelo"))
+
+registrar_novo_candidato = []
+resposta = "S"
+while resposta == "S":
+    registrar_novo_candidato.append(input("Digite o nome: "))
+    registrar_novo_candidato.append(int(input("Digite a idade do usuário: ")))
+    registrar_novo_candidato.append(int(input("Digite o dia de candidatura: ")))
+    registrar_novo_candidato.append(int(input("Digite o dia de aprovação: ")))
+    registrar_novo_candidato.append(input("Digite as melhores qualidades do usuário: "))
+    registrar_novo_candidato.append(input("Ele pode atuar em horario comercial? "))
+
+    resposta = input("Digite: \"S\" para enviar:").upper
+    break
